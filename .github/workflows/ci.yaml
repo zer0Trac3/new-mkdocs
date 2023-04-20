@@ -17,6 +17,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
+      - run: wget https://github.com/chrissimpkins/cinder/archive/v1.2.0.zip
+      - run: unzip cinder-1.2.0.zip
+      - run: rm -rf cinder-1.2.0.zip
       - run: mkdocs gh-deploy --force

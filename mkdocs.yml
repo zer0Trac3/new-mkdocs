@@ -7,11 +7,7 @@ nav:
 
 theme:
   name: null
-  custom_dir: 'mkdocs-docskimmer'
-  include_search_page: true
-  search_index_only: false
-  static_templates:
-  - 404.html
+  custom_dir: 'cinder'
 
 
 # add theme version number here
