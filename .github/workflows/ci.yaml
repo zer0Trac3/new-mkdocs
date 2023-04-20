@@ -18,6 +18,6 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: wget https://github.com/chrissimpkins/cinder/archive/v1.2.0.zip
-      - run: unzip cinder-1.2.0.zip
-      - run: rm -rf cinder-1.2.0.zip
+      - run: unzip v1.2.0.zip
+      - run: rm -rf v1.2.0.zip
       - run: mkdocs gh-deploy --force
