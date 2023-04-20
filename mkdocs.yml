@@ -6,5 +6,4 @@ nav:
     - About: about.md
 
 theme:
-    name: mkdocs
-    nav_style: dark
+  name: 'rtd-dropdown'
