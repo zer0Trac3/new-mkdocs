@@ -17,5 +17,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
+      - run: pip install mkdocs-material
       - run: git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
       - run: mkdocs gh-deploy --force
