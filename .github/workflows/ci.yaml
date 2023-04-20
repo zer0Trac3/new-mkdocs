@@ -17,7 +17,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: wget https://github.com/chrissimpkins/cinder/archive/v1.2.0.zip
-      - run: unzip v1.2.0.zip
-      - run: rm -rf v1.2.0.zip
+      - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
