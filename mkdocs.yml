@@ -6,10 +6,5 @@ nav:
     - About: about.md
 
 theme:
-  name: null
-  custom_dir: 'cinder'
-
-
-# add theme version number here
-extra:
-    version: 0.3.x
+    name: mkdocs
+    nav_style: dark
